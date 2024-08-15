@@ -1,2 +1,2 @@
 # 1  Print Hello Word
-# 2  Print Hello World
+# 2  Print the Number is Using Loop
