@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var container = document.getElementById("container");
+            var button = document.createElement("button"); // Create the button element
+            button.textContent = "Click me"; // Set the button's initial text
+
+            button.addEventListener("click", function () { // Corrected the spelling here
+                button.textContent = "Clicked me"; // Change the text when clicked
+            });
+
+            container.appendChild(button); // Append the button to the container
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <p>Create a button dynamically and add it to a webpage</p>
+</body>
+
+</html>
