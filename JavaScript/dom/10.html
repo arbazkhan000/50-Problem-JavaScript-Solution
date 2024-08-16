@@ -1,0 +1,24 @@
+<!-- Change the text of Paragraph on a webpase using JavaSCript -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            let changeText = document.getElementById("text");
+            changeText.addEventListener("click", function () {
+                changeText.textContent = "This paragraph has been changed by the function.";
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <p id="text">This paragraph will change its text when clicked.</p>
+</body>
+
+</html>
